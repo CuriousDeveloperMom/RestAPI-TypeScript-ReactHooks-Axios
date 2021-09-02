@@ -25,7 +25,7 @@ const App = () => {
       headers: {
         "Content-Type": "application/json"
       },
-      timeout: 1,
+      timeout: 10000,
       })
       .then((response) => {
         setPosts(response.data);
